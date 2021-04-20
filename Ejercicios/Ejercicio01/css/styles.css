@@ -1,0 +1,137 @@
+body {
+    background-color: #232323;
+}
+
+.one .col,
+.three .col,
+.four .col,
+.five .col,
+.six .col,
+.seven .col,
+.eight .col, 
+.nine .col {
+    height: 150px;
+}
+
+.one .col:nth-child(odd),
+.two .col:nth-child(odd) {
+    background-color: red;
+}
+
+.one .col:nth-child(even),
+.two .col:nth-child(even) {
+    background-color: green;
+}
+
+.three .col:first-child,
+.three .col:nth-child(5),
+.three .col:last-child {
+    border: 5px solid blue;
+}
+
+.three .col:nth-child(2) {
+    border: 5px double yellow;
+}
+
+.three .col:nth-child(3) {
+    border: 5px dotted red;
+}
+
+.three .col:nth-child(4) {
+    border: 5px groove gainsboro;
+}
+
+.four .col:first-child,
+.four .col:nth-child(5),
+.four .col:nth-child(9) {
+    background-color: green;
+}
+
+.four .col:nth-child(2),
+.four .col:nth-child(6),
+.four .col:nth-child(10) {
+    background-color: red;
+}
+
+.four .col:nth-child(3),
+.four .col:nth-child(7),
+.four .col:last-child {
+    background-color: blue;
+}
+
+.four .col:nth-child(4),
+.four .col:nth-child(8) {
+    background-color: gainsboro;
+}
+
+
+.five .col:first-child,
+.nine .col:first-child,
+.nine .col:last-child {
+    background: linear-gradient(green, brown, white);
+}
+
+.five .col:nth-child(2),
+.nine .col:nth-child(2) {
+    background: linear-gradient(-217deg, red, purple, blue);
+}
+
+.five .col:last-child,
+.nine .col:nth-child(3) {
+    background: linear-gradient(-330deg, yellow, green);
+}
+
+.six .col {
+    text-align: center;
+}
+
+.six .col:first-child{
+    background-color: blue;
+    border: 5px double yellow;
+}
+
+.six .col:last-child{
+    background-color: green;
+    border: 5px dotted red;
+}
+
+.six .col img {
+    width: 110px;
+    margin: 0 auto;
+}
+
+.seven .col:first-child {
+    background-color: maroon;
+}
+
+.seven .col:nth-child(2) {
+    background-color: midnightblue;
+}
+
+.seven .col:nth-child(3) {
+    background-color: olivedrab;
+}
+
+.seven .col:last-child {
+    background-color: rebeccapurple;
+}
+
+.eight .col:first-child,
+.eight .col:nth-child(5),
+.eight .col:nth-child(7) {
+    background-color: red;
+}
+
+.eight .col:nth-child(2),
+.eight .col:nth-child(6) {
+    background-color: blue;
+}
+
+.eight .col:nth-child(3),
+.eight .col:last-child {
+    background-color: green;
+}
+
+.eight .col:nth-child(4) {
+    background-color: gainsboro;
+}
