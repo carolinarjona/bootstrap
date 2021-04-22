@@ -1,12 +1,16 @@
-.col {
+.bgBlue {
+    background-color: blue;
     height: 50px;
     border: 2px solid black;
 }
 
-.bg-blue {
-    background-color: blue;
+.bgRed {
+    background-color: red;
+    height: 50px;
+    border: 2px solid black;
 }
 
-.bg-red {
-    background-color: red;
+.seven,
+.six {
+    height: 30px;
 }
