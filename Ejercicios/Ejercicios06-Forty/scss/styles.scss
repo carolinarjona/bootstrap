@@ -1,0 +1,85 @@
+@import '_variables.scss';
+
+body {
+    p, h1, h2 {
+        color: #fff;
+    }
+    hr {
+        height: 1px;
+        background-color: #fff;
+        border: none;
+    }
+    button {
+        letter-spacing: 0.2rem;
+    }
+    .material-icons {
+        font-size: 3rem;
+        color: #fff;
+    }
+}
+
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    .bg-dark-nav {
+        background-color: $darkBlue;
+    }
+    a, button {
+        color: #fff !important;
+    }
+
+}
+
+.padding-75 {
+    padding: 7% 5%;
+}
+
+.bg-darkblue {
+    background-color: $darkBlue;
+    padding: 10% 5%;
+}
+
+.bg-lightblue {
+    background-color: $lightBlue;
+}
+
+.bg-violet {
+    background-color: $violet;
+}
+
+.bg-orange{
+    background-color: $orange;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.bg-green {
+    background-color: $green;
+}
+
+.massa-bg-darkblue {
+    background-color: $darkBlue;
+    padding: 2rem;
+}
+
+.footer-bg-darkblue {
+    background-color: $darkBlue;
+    padding: 2rem 2rem;
+    label {
+        color: #fff;
+    }
+    input, textarea {
+        background-color: $inputColor;
+        border: none;
+    }
+    button {
+        margin-top: 1rem;
+    }
+}

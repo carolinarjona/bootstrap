@@ -146,6 +146,7 @@ nav li span {
 .best-performance .text-performance span,
 .my-best-mentor .text-best-mentor span {
   color: var(--orange);
+  font-weight: 700;
 }
 
 .our-team {

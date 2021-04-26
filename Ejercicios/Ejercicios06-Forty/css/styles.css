@@ -1,0 +1,80 @@
+body p, body h1, body h2 {
+  color: #fff;
+}
+body hr {
+  height: 1px;
+  background-color: #fff;
+  border: none;
+}
+body button {
+  letter-spacing: 0.2rem;
+}
+body .material-icons {
+  font-size: 3rem;
+  color: #fff;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+header .bg-dark-nav {
+  background-color: #242943;
+}
+header a, header button {
+  color: #fff !important;
+}
+
+.padding-75 {
+  padding: 7% 5%;
+}
+
+.bg-darkblue {
+  background-color: #242943;
+  padding: 10% 5%;
+}
+
+.bg-lightblue {
+  background-color: #6fc3df;
+}
+
+.bg-violet {
+  background-color: #8d82c4;
+}
+
+.bg-orange {
+  background-color: #ec8d81;
+}
+
+.bg-yellow {
+  background-color: #e7b788;
+}
+
+.bg-purple {
+  background-color: #8ea9e8;
+}
+
+.bg-green {
+  background-color: #87c5a4;
+}
+
+.massa-bg-darkblue {
+  background-color: #242943;
+  padding: 2rem;
+}
+
+.footer-bg-darkblue {
+  background-color: #242943;
+  padding: 2rem 2rem;
+}
+.footer-bg-darkblue label {
+  color: #fff;
+}
+.footer-bg-darkblue input, .footer-bg-darkblue textarea {
+  background-color: #383c52;
+  border: none;
+}
+.footer-bg-darkblue button {
+  margin-top: 1rem;
+}
