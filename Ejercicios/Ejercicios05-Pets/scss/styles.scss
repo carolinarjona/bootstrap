@@ -107,5 +107,57 @@ nav {
 }
 
 .p-top-button {
-    padding: 40px 0;
+    padding: 100px 0;
+}
+
+.bg-happy-dog {
+background-image: url("../images/MicrosoftTeams-image\ \(4\).png");
+height: 50vh;
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+}
+
+.img-adopt {
+    @include flex-center;
+    height: 80vh;
+    img {
+        width: 60%;
+    }
+}
+
+.adopt-text {
+    @include flex-center;
+    .text-about {
+        width: 70%;
+    }
+}
+
+footer {
+    background-image: url("../images/MicrosoftTeams-image\ \(6\).png");
+    height: 80vh;
+    .subscribe {
+        color: #fff;
+        flex-direction: column;
+        @include flex-center;
+        .input-group {
+        width: 40%;
+            span {
+                background-color: #dc3545;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+    .menu-list {
+        text-align: center;
+        color: #fff;
+        ul {
+            list-style: none;
+        }
+        li {
+            padding: 0.5rem;
+        }
+    }
+    
 }
