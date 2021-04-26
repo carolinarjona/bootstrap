@@ -1,0 +1,141 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 30vh;
+    padding: 4rem 0;
+    text-align: center;
+    .nav-home {
+        background-color: #dc3545;
+        border-radius: 0.3rem;
+        color: #fff !important;
+    }
+    h2 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+}
+
+.bg-hero {
+    background-image: url("../images/pic01.jpg");
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .hero-card {
+        background-color: #343a40;
+        padding: 3rem 4rem;
+        border-radius: 0.3rem;
+    }
+    h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #fff;
+    }
+    p {
+        color: #dc3545;
+    }
+}
+
+.config-fav-thunder {
+    padding: 6rem 0;
+    .card {
+        align-items: center;
+        text-align: center;
+        border: none;
+    }
+    h5 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    img {
+        width: 50%;
+    }
+    .card-shadow {
+        box-shadow: 0px 0px 15px 3px #000;
+    }
+}
+
+.portfolio {
+    background-color: #f7f7f7;
+    border: 1px solid #343a4030;
+
+    .portfolio-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 5rem;
+        max-width: 70%;
+    }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 4rem;
+        font-weight: 900;
+    }
+    h5, p, button {
+        padding: 1.3rem 0;
+    }
+    h5 {
+        font-size: 1rem;
+        font-weight: 900;     
+    }
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    h5, p, button {
+        padding: 2rem 0;
+    }
+    button {
+        margin-bottom: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0 0 2rem 0;
+        font-weight: 900;
+    }
+    h5 {
+        font-size: 1rem;
+        font-weight: 900;     
+    }
+    img {
+        margin-bottom: 2rem
+    }
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    padding: 5rem;
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .link {
+        text-align: center;
+    }
+    h2, img, a {
+        padding-bottom: 4rem;
+    }
+    h2 {
+        margin-top: 2rem;
+    }
+    .instagram {
+        margin-top: 7rem;
+    }
+}

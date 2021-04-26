@@ -1,0 +1,140 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  height: 30vh;
+  padding: 4rem 0;
+  text-align: center;
+}
+header .nav-home {
+  background-color: #dc3545;
+  border-radius: 0.3rem;
+  color: #fff !important;
+}
+header h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.bg-hero {
+  background-image: url("../images/pic01.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bg-hero .hero-card {
+  background-color: #343a40;
+  padding: 3rem 4rem;
+  border-radius: 0.3rem;
+}
+.bg-hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.bg-hero p {
+  color: #dc3545;
+}
+
+.config-fav-thunder {
+  padding: 6rem 0;
+}
+.config-fav-thunder .card {
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+.config-fav-thunder h5 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.config-fav-thunder img {
+  width: 50%;
+}
+.config-fav-thunder .card-shadow {
+  box-shadow: 0px 0px 15px 3px #000;
+}
+
+.portfolio {
+  background-color: #f7f7f7;
+  border: 1px solid #343a4030;
+}
+.portfolio .portfolio-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .card {
+  margin-bottom: 5rem;
+  max-width: 70%;
+}
+.portfolio h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 4rem;
+  font-weight: 900;
+}
+.portfolio h5, .portfolio p, .portfolio button {
+  padding: 1.3rem 0;
+}
+.portfolio h5 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+}
+.blog h5, .blog p, .blog button {
+  padding: 2rem 0;
+}
+.blog button {
+  margin-bottom: 4rem;
+}
+.blog h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 0 2rem 0;
+  font-weight: 900;
+}
+.blog h5 {
+  font-size: 1rem;
+  font-weight: 900;
+}
+.blog img {
+  margin-bottom: 2rem;
+}
+
+footer {
+  color: #fff;
+  background-color: #000;
+  padding: 5rem;
+}
+footer .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .link {
+  text-align: center;
+}
+footer h2, footer img, footer a {
+  padding-bottom: 4rem;
+}
+footer h2 {
+  margin-top: 2rem;
+}
+footer .instagram {
+  margin-top: 7rem;
+}
