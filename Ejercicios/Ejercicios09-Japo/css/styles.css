@@ -1,0 +1,244 @@
+body {
+  background: url("../images/bgCherryBlossom.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Merriweather", serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+header {
+  color: #FFFFFF;
+  padding: 5rem 10rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  padding-bottom: 2rem;
+}
+header p {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.nav-main {
+  background-color: #FFFFFF;
+}
+.nav-main nav {
+  background-color: #9CCBB9;
+  border-top: 2px solid #FFFFFF;
+}
+.nav-main nav .col-12 ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
+.nav-main nav .col-12 ul a {
+  color: #fff;
+  padding: 0.5rem 2rem;
+  transition: opacity 0.4s ease;
+  font-weight: 600;
+}
+.nav-main nav .col-12 ul a:hover {
+  opacity: 0.4;
+  text-decoration: none;
+}
+.nav-main nav .col-12 ul img {
+  padding: 0 1rem;
+  height: 100%;
+  transition: opacity 0.4s ease;
+  opacity: 1;
+}
+.nav-main nav .col-12 ul img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.main-welcome {
+  text-align: center;
+  align-items: center;
+}
+.main-welcome .col-12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-welcome .col-12 .welcome-text {
+  color: #212931;
+  padding: 5rem 0;
+  max-width: 60%;
+}
+.main-welcome .col-12 .welcome-text h2 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+.main-welcome .col-12 .welcome-text p {
+  font-style: italic;
+  font-family: "Merriweather";
+}
+.main-welcome .col-12 img {
+  width: 100%;
+  padding: 0 3rem 4rem;
+}
+.main-welcome .col-12 button {
+  padding: 0.6rem 2rem;
+  border: 2px solid #212931;
+  background-color: transparent;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s ease;
+  transition: color 0.4s ease;
+}
+.main-welcome .col-12 button:hover {
+  background-color: #212931;
+  color: #FFFFFF;
+}
+
+.card-section {
+  padding-top: 6rem;
+  text-align: center;
+}
+.card-section img {
+  width: 100%;
+}
+.card-section button {
+  padding: 0.6rem 2rem;
+  border: 2px solid #212931;
+  background-color: transparent;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s ease;
+  transition: color 0.4s ease;
+}
+.card-section button:hover {
+  background-color: #212931;
+  color: #FFFFFF;
+}
+.card-section h3 {
+  font-weight: 900;
+  padding: 1rem 6rem 2rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.card-section p {
+  text-align: justify;
+  padding: 2rem 0;
+  font-family: "Merriweather";
+  line-height: 2.2rem;
+}
+.card-section .card-springJapan {
+  padding: 3rem;
+}
+.card-section .card-one {
+  border-top: 2px solid #E2E2E2;
+  border-right: 2px solid #E2E2E2;
+}
+.card-section .card-two {
+  border-top: 2px solid #E2E2E2;
+}
+
+.form-contact {
+  background-color: #F5F5F5;
+  color: #777D84;
+}
+.form-contact .form-section {
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #E2E2E2;
+  padding: 3rem;
+}
+.form-contact .form-section input, .form-contact .form-section textarea {
+  background-color: transparent;
+  border: 2px solid #E2E2E2;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem;
+}
+.form-contact .form-section textarea {
+  height: 150px;
+  resize: none;
+}
+.form-contact .form-section label {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.form-contact .form-section button {
+  padding: 0.6rem 1rem;
+  border: 2px solid #777D84;
+  color: #777D84;
+  width: 35%;
+  font-size: 0.8rem;
+  background-color: transparent;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3s ease;
+  transition: color 0.4s ease;
+}
+.form-contact .form-section button:hover {
+  background-color: #777D84;
+  color: #FFFFFF;
+}
+.form-contact .contact-section .table-title {
+  padding-left: 2rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-top: 1px;
+  width: 150px;
+}
+.form-contact .contact-section table td {
+  vertical-align: top;
+  text-align: left;
+  font-size: 0.8rem;
+}
+.form-contact .contact-section .adress, .form-contact .contact-section .phone, .form-contact .contact-section .email, .form-contact .contact-section .social {
+  padding: 3rem 0;
+  border-bottom: 2px solid #E2E2E2;
+}
+.form-contact .contact-section .adress a, .form-contact .contact-section .phone a, .form-contact .contact-section .email a, .form-contact .contact-section .social a {
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  color: #777D84;
+  transition: background-color 0.4s ease;
+}
+.form-contact .contact-section .adress a:hover, .form-contact .contact-section .phone a:hover, .form-contact .contact-section .email a:hover, .form-contact .contact-section .social a:hover {
+  background-color: #777D84;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.form-contact .contact-section .social {
+  border-bottom: unset;
+}
+.form-contact .contact-section .social .table-title {
+  vertical-align: center;
+  padding-top: 0.5rem;
+}
+.form-contact .contact-section .social img {
+  padding: 0 0.3rem;
+  height: 100%;
+  transition: opacity 0.4s ease;
+  opacity: 1;
+}
+.form-contact .contact-section .social img:hover {
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+footer {
+  height: 150px;
+  text-align: center;
+  color: #212931;
+  font-weight: 900;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer span {
+  color: #fc8399;
+  font-size: 1.5rem;
+}
