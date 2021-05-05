@@ -70,7 +70,7 @@ header p {
 }
 .main-welcome .col-12 .welcome-text {
   color: #212931;
-  padding: 5rem 0;
+  padding: 4rem 0;
   max-width: 60%;
 }
 .main-welcome .col-12 .welcome-text h2 {
@@ -121,7 +121,7 @@ header p {
 }
 .card-section h3 {
   font-weight: 900;
-  padding: 1rem 6rem 2rem;
+  padding: 1rem 4rem 2rem;
   letter-spacing: 0.2rem;
   text-align: center;
 }
