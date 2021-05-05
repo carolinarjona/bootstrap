@@ -338,6 +338,11 @@ footer .col-12 {
 }
 
 @media (max-width: 992px) {
+  .row {
+    margin: unset;
+  }
+}
+@media (max-width: 992px) {
   .bg-features, .beautiful-website {
     height: auto !important;
     padding: 2rem 0 !important;
@@ -369,6 +374,14 @@ footer .col-12 {
   }
 }
 @media (max-width: 1150px) {
+  .work-with-us {
+    height: auto !important;
+    padding: 2rem !important;
+  }
+  .work-with-us h2 {
+    padding-top: 0 !important;
+  }
+
   .moon-image {
     padding: 0 1rem !important;
   }
