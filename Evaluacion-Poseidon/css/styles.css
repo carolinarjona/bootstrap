@@ -1,0 +1,381 @@
+header {
+  background: url("../images/spacebg.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header .container nav {
+  color: #f2f2f9;
+  padding: 1.5rem 1rem;
+}
+header .container nav ul {
+  list-style: none;
+  display: flex;
+}
+header .container nav ul a {
+  color: #f2f2f9;
+  padding: 0.5rem 2rem;
+  transition: color 0.3s ease;
+}
+header .container nav ul a:hover {
+  color: #efbad3;
+  text-decoration: none;
+}
+header .container nav h4 {
+  font-size: 2rem;
+  font-weight: 900;
+  transition: color 0.3s ease;
+}
+header .container nav h4:hover {
+  color: #b37cf1;
+}
+header .container .poseidon-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 85vh;
+}
+header .container .poseidon-header h1 {
+  color: #f2f2f9;
+  font-family: "Lora";
+  font-size: 15rem;
+  padding: 2rem;
+  border: 1rem solid #f2f2f9;
+}
+
+main .card-section {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+main .card-section h3,
+main .card-section h4 {
+  font-family: "Lora";
+  font-weight: 700;
+}
+main .card-section h3 {
+  padding-top: 4rem;
+  font-size: 2rem;
+}
+main .card-section p {
+  padding: 2rem;
+}
+main .card-section a {
+  color: #b37cf1;
+  transition: color 0.3s ease;
+}
+main .card-section a:hover {
+  color: #efbad3;
+  text-decoration: none;
+}
+main .card-section .card {
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  box-shadow: 0px 0px 15px 2px #39334020;
+  text-align: center;
+  align-items: center;
+}
+main .card-section .card img {
+  max-width: 64px;
+  margin-top: 2rem;
+}
+main .card-section .card h5 {
+  font-family: "Lora";
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+main .card-section .card p {
+  padding: 0.5rem;
+}
+main .card-section .card-margin {
+  margin-top: -10px;
+}
+main .bg-features {
+  background: url("../images/spacebg2.png");
+  height: 80vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #f2f2f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .bg-features .col-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .bg-features .col-texto h2 {
+  font-family: "Lora";
+  font-weight: 700;
+}
+main .bg-features .col-texto p {
+  padding: 2rem 0;
+}
+main .bg-features .col-texto button {
+  color: #f2f2f9;
+  background: transparent;
+  border: 1px solid #f2f2f9;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  align-self: flex-start;
+  margin-bottom: 3rem;
+  transition: all 0.3s ease;
+}
+main .bg-features .col-texto button:hover {
+  background-color: #efbad3;
+  color: #393340;
+}
+main .capture-moments {
+  padding: 8rem 0;
+}
+main .capture-moments .col-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .capture-moments .col-texto h2 {
+  font-family: "Lora";
+  font-weight: 700;
+  margin-top: 3rem;
+}
+main .capture-moments .col-texto p {
+  padding: 2rem 0;
+}
+main .capture-moments .progress {
+  margin-top: 1rem;
+  align-items: center;
+  width: 100%;
+}
+main .capture-moments .progress .progress-bar {
+  background-color: #b37cf1;
+  padding: 1rem;
+}
+main .our-pictures {
+  text-align: center;
+  padding: 5rem 0;
+}
+main .our-pictures h2 {
+  font-family: "Lora";
+  font-size: 2rem;
+}
+main .our-pictures h2 span {
+  font-weight: 900;
+}
+main .our-pictures img {
+  padding: 2rem;
+}
+main .work-with-us {
+  background: url("../images/spacebg4.png");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #f2f2f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+main .work-with-us h2 {
+  padding-top: 7rem;
+  font-weight: 700;
+  font-family: "Lora";
+}
+main .work-with-us .moon-image {
+  display: flex;
+  justify-content: center;
+}
+main .work-with-us .moon-image img {
+  width: 200px;
+  padding: 6rem 2rem;
+}
+main .contact-us {
+  padding: 4rem;
+}
+main .contact-us .contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 2px #39334020;
+  text-align: center;
+}
+main .contact-us .contact-form h3 {
+  font-family: "Lora";
+  font-weight: 900;
+  padding: 1rem;
+  font-size: 2.3rem;
+}
+main .contact-us .contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .contact-us .contact-form form input, main .contact-us .contact-form form textarea {
+  padding: 0.8rem;
+  border-color: #39334020;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+}
+main .contact-us .contact-form form textarea {
+  height: 200px;
+}
+main .contact-us .contact-form form input::placeholder, main .contact-us .contact-form form textarea::placeholder {
+  color: #39334020;
+}
+main .contact-us .contact-form form button {
+  background-color: #b37cf1;
+  color: #f2f2f9;
+  font-weight: 900;
+  border-radius: 50px;
+  padding: 1rem;
+  border: none;
+  width: 200px;
+  align-self: center;
+  box-shadow: 0px 6px 15px 0px #b37cf1;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+main .contact-us .contact-form form button:hover {
+  background-color: #efbad3;
+  color: #393340;
+  box-shadow: 0px 6px 15px 0px #efbad3;
+}
+main .contact-us .text-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 6rem;
+}
+main .contact-us .text-contact h3 {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+main .contact-us .text-contact p {
+  padding: 1rem 0;
+}
+main .contact-us .text-contact .first-icons {
+  display: flex;
+}
+main .contact-us .text-contact .first-icons .rocket-icon, main .contact-us .text-contact .first-icons .astronaut-icon {
+  padding-right: 2rem;
+}
+main .contact-us .text-contact a {
+  color: #b37cf1;
+  font-weight: 900;
+  padding-top: 1rem;
+  transition: color 0.3s ease;
+}
+main .contact-us .text-contact a:hover {
+  color: #efbad3;
+  text-decoration: none;
+}
+main .beautiful-website {
+  background: url("../images/spacebg3.png");
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #f2f2f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+main .beautiful-website h2 {
+  font-family: "Lora";
+  font-weight: 900;
+  padding: 1rem;
+}
+main .beautiful-website p {
+  padding-bottom: 1rem;
+}
+main .beautiful-website button {
+  color: #f2f2f9;
+  background: transparent;
+  border: 1px solid #f2f2f9;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  align-self: flex-start;
+  margin-bottom: 3rem;
+  transition: background-color 0.3s ease;
+}
+main .beautiful-website button:hover {
+  background-color: #efbad3;
+  color: #393340;
+}
+
+footer {
+  padding: 2rem;
+}
+footer img {
+  height: 28px;
+  padding: 0 1rem;
+}
+footer span {
+  color: #efbad3;
+  font-size: 2rem;
+}
+footer .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .bg-features, .beautiful-website {
+    height: auto !important;
+    padding: 2rem 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .contact-us {
+    padding: 2rem 1rem !important;
+  }
+
+  .text-contact {
+    padding: 2rem 1rem !important;
+  }
+}
+@media (max-width: 1150px) {
+  .poseidon-header h1 {
+    font-size: 4rem !important;
+  }
+}
+@media (max-width: 1150px) {
+  nav a {
+    padding: 0.5rem 0.5rem !important;
+  }
+}
+@media (max-width: 992px) {
+  .card-margin {
+    margin-top: unset !important;
+  }
+}
+@media (max-width: 1150px) {
+  .moon-image {
+    padding: 0 1rem !important;
+  }
+  .moon-image img {
+    width: 110px !important;
+    padding: 0 0.4rem !important;
+  }
+  .moon-image .moonfinal {
+    display: none !important;
+  }
+}
