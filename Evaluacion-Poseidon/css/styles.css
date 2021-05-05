@@ -173,7 +173,7 @@ main .our-pictures h2 span {
   font-weight: 900;
 }
 main .our-pictures img {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 main .work-with-us {
   background: url("../images/spacebg4.png");
@@ -355,6 +355,7 @@ footer .col-12 {
 @media (max-width: 1150px) {
   .poseidon-header h1 {
     font-size: 4rem !important;
+    padding: 1rem !important;
   }
 }
 @media (max-width: 1150px) {
